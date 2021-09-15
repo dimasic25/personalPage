@@ -2,10 +2,50 @@ body {
     background-color: #F52961;
 }
 
-.text {
+.FIO {
     font-weight: bold;
     font-size: 48px;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 .wrapper {
+    display: grid;
+}
+
+.phone {
+    background-color: #1CE4B4;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.text-white {
+    color: white;
+}
+
+.person-info {
+    background-color: #2919EC;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.person-professional-skills {
+    background-color: #F3DD18;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.image {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.contacts {
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
