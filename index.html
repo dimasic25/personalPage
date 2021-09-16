@@ -5,43 +5,103 @@
     <title>Персональная страница</title>
     <base target="_blank">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="wrapper">
-    <div class="image">
-        <img src="./resources/photos/vk.jpg" alt="Нет фото">
-    </div>
-    <div class="FIO">
+    <div class="flex-container">
+        <div class="left-panel panel">
+            <div class="image item">
+                <img src="resources/img/vk.jpg" alt="Нет фото">
+            </div>
+
+            <div class="contacts item">
+                <div class="phone">
+                    <span class="text text-white">Телефон: secret</span>
+
+                    <div class="messengers">
+                        <a href="https://vk.com/dimasik25"><img src="resources/img/vk.png" alt="" title="Перейти в Vk"></a>
+                        <a href="https://github.com/dimasic25"><img src="resources/img/github.png" alt=""
+                                                                    title="Перейти в Гитхаб"></a>
+                        <a href="https://web.telegram.org/k/"><img src="resources/img/telegram.png" alt=""
+                                                                   title="Перейти в Телеграм"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right-panel panel">
+
+            <div class="container item">
+                <div class="FIO">
         <span>
             Бубырь Дмитрий Александрович
         </span>
-        <img src="./resources/photos/status.png" alt="Нет статуса" title="Оседлаю любую волну">
-    </div>
-    <div class="contacts">
-        <div class="phone">
-            <span class="text text-white">Телефон: secret</span>
-        </div>
-        <div class="messengers">
-            <a href="https://vk.com/dimasik25"><img src="resources/photos/vk.png" alt="" title="Перейти в Vk"></a>
-            <a href="https://github.com/dimasic25"><img src="resources/photos/github.png" alt=""
-                                                        title="Перейти в Гитхаб"></a>
-            <a href="https://web.telegram.org/k/"><img src="resources/photos/telegram.png" alt=""
-                                                       title="Перейти в Телеграм"></a>
-        </div>
-    </div>
+                    <img src="resources/img/status.png" alt="Нет статуса" title="Оседлаю любую волну">
+                </div>
 
-    <div class="person-info">
+
+                <div class="person-info">
 
     <span class="text text-white">День рождения: 25 июля 2001 г. <br>
 Город: Липецк</span>
 
+                </div>
+            </div>
+
+
+            <div class="person-professional-skills item">
+                <span class="text">Учусь в Лгту, на 3 курсе, группа “Программная инженерия”. Работаю в должности Java-программиста. В свободное время увлекаюсь спортом, кино и музыкой.</span>
+            </div>
+        </div>
     </div>
 
-    <div class="person-professional-skills">
-        <span class="text">Учусь в Лгту, на 3 курсе, группа “Программная инженерия”. Работаю в должности Java-программиста. В свободное время увлекаюсь спортом, кино и музыкой.</span>
+    <div class="slider">
+        <div class="image-slider swiper-container">
+
+            <div class="swiper-wrapper">
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="resources/img/slides/01.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="resources/img/slides/02.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="resources/img/slides/03.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="resources/img/slides/04.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
 
 </div>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
