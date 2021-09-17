@@ -31,6 +31,7 @@ body {
 
 .text-white {
     color: white;
+    font-size: 16px;
 }
 
 .person-info {
@@ -38,6 +39,10 @@ body {
     width: 900px;
     height: 128px;
     margin: 0 auto;
+    box-shadow: -20px 20px 0 -17px #eee,
+    20px -20px 0 -17px #eee,
+    20px 20px 0 -20px #592385,
+    0 0 0 2px #592385;
 }
 
 .person-professional-skills {
@@ -56,6 +61,10 @@ body {
 .contacts {
     width: 200px;
     margin-left: auto;
+}
+
+.messengers {
+    padding-top: 10px;
 }
 
 .panel {
@@ -92,6 +101,7 @@ span {
 }
 
 .image-slider_image img {
+    max-width: 100%;
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -104,4 +114,16 @@ span {
 
 .swiper-button-prev, .swiper-button-next {
     top: 70%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 5px;
 }
