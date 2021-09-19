@@ -6,7 +6,7 @@ body {
     font-weight: bold;
     font-size: 48px;
     text-align: center;
-    width: 900px;
+    /*width: 900px;*/
 }
 
 .wrapper {
@@ -21,24 +21,26 @@ body {
 .phone {
     background-color: #1CE4B4;
     margin-bottom: 10px;
-    height: 90px;
+    height: 100px;
 }
 
 .text {
     font-weight: normal;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 .text-white {
     color: white;
+}
+
+.font16 {
     font-size: 16px;
 }
 
 .person-info {
     background-color: #2919EC;
-    width: 900px;
-    height: 128px;
-    margin: 0 auto;
+    /*width: 900px;*/
+    height: 200px;
     box-shadow: -20px 20px 0 -17px #eee,
     20px -20px 0 -17px #eee,
     20px 20px 0 -20px #592385,
@@ -47,20 +49,25 @@ body {
 
 .person-professional-skills {
     background-color: #F3DD18;
-    width: 900px;
-    margin: 0 auto;
+    /*width: 900px;*/
 }
 
 .image {
     width: 200px;
+    height: 200px;
     margin-left: auto;
     margin-right: 0;
     max-width: 100%;
 }
 
+.image img {
+    object-fit: cover;
+}
+
 .contacts {
-    width: 200px;
     margin-left: auto;
+    margin-right: 0;
+    height: 300px;
 }
 
 .messengers {
@@ -75,6 +82,12 @@ body {
 
 .left-panel {
     margin-left: auto;
+    margin-right: 0;
+}
+
+.right-panel {
+    /*margin: 0 auto;*/
+    width: 1300px;
 }
 
 .item {
@@ -86,13 +99,13 @@ span {
     line-height: 1.5;
 }
 
-.container {
-    height: 200px;
-}
+/*.container {*/
+/*    height: 300px;*/
+/*}*/
 
 .image-slider {
     width: 600px;
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
 }
 
@@ -102,8 +115,8 @@ span {
 
 .image-slider_image img {
     max-width: 100%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
