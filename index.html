@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Персональная страница</title>
     <base target="_blank">
     <link rel="stylesheet" href="css/reset.css">
@@ -10,15 +12,16 @@
 </head>
 <body>
 <div class="wrapper">
-    <div class="flex-container">
+    <div class="grid-container">
+
         <div class="left-panel panel">
-            <div class="image item">
+            <div class="image">
                 <img src="resources/img/vk.jpg" alt="Нет фото">
             </div>
 
-            <div class="contacts item">
+            <div class="contacts">
                 <div class="phone">
-                    <span class="text text-white font16">Телефон: +7 (999) 999-9999</span>
+                    <span class="text font16">Телефон: +7 (999) 999-9999</span>
 
                     <div class="messengers">
                         <a href="https://vk.com/dimasik25"><img src="resources/img/vk.png" alt="" title="Перейти в Vk"></a>
@@ -31,18 +34,24 @@
             </div>
         </div>
 
-
-        <div class="right-panel panel">
-
-            <div class="FIO">
+        <div class="FIO">
         <span>
             Бубырь Дмитрий Александрович
         </span>
-                <img src="resources/img/status.png" alt="Нет статуса" title="Оседлаю любую волну">
-            </div>
+            <img src="resources/img/status.png" alt="Нет статуса" title="Оседлаю любую волну">
+        </div>
+
+        <div class="right-panel panel">
+
+<!--            <div class="FIO">-->
+<!--        <span>-->
+<!--            Бубырь Дмитрий Александрович-->
+<!--        </span>-->
+<!--                <img src="resources/img/status.png" alt="Нет статуса" title="Оседлаю любую волну">-->
+<!--            </div>-->
 
 
-            <div class="person-info item">
+            <div class="person-info">
 
     <span class="text text-white">День рождения: 25 июля 2001 г.
 <p>Город: Липецк</p></span>
@@ -50,7 +59,7 @@
             </div>
 
 
-            <div class="person-professional-skills item">
+            <div class="person-professional-skills">
                 <span class="text">Учусь в Лгту, на 3 курсе, группа “Программная инженерия”. Работаю в должности Java-программиста. Владею
                     Java, немного <a
                             href="https://docs.spring.io/spring-framework/docs/current/reference/html/">Spring</a>, изучал PHP,
@@ -102,6 +111,13 @@
                 <div class="image-slider_slide swiper-slide">
                     <div class="image-slider_image">
                         <img src="resources/img/slides/06.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="image-slider_slide swiper-slide">
+                    <div class="image-slider_image">
+                        <img src="resources/img/slides/07.jpg" alt="">
                     </div>
 
                 </div>

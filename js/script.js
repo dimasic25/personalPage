@@ -5,12 +5,12 @@ let slider = new Swiper('.image-slider', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-    pagination: {
-        el: '.swiper-pagination',
-
-        clickable: true,
-        dynamicBullets: true,
-    },
+    // pagination: {
+    //     el: '.swiper-pagination',
+    //
+    //     clickable: true,
+    //     dynamicBullets: true,
+    // },
 });
 
 let sliderBlock = document.querySelector('.image-slider');
