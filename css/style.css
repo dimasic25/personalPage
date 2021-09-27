@@ -130,14 +130,8 @@ p {
         max-width: 900px;
     }
 
-    .image-slider {
-        width: 400px;
+    .swiper {
         height: 200px;
-    }
-
-    .image-slider_image img {
-        height: 200px;
-        width: 200px;
     }
 }
 
@@ -253,13 +247,7 @@ p {
         margin-right: 5px;
     }
 
-    .image-slider {
-        width: 200px;
+    .swiper {
         height: 100px;
-    }
-
-    .image-slider_image img {
-        height: 100px;
-        width: 100px;
     }
 }
