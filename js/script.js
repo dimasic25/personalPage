@@ -1,6 +1,8 @@
 let slider = new Swiper('.image-slider', {
     loop: true,
 
+    slidesPerView: 2,
+
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

@@ -141,7 +141,7 @@ p {
 @media (max-width: 1200px) {
 
     .right-panel {
-        width: 900px;
+        max-width: 900px;
     }
 
     .image-slider {
@@ -162,7 +162,7 @@ p {
 @media (max-width: 1024px) {
 
     .right-panel {
-        width: 750px;
+        max-width: 750px;
     }
 
 }
@@ -194,7 +194,7 @@ p {
     }
 
     .right-panel {
-        width: 700px;
+        max-width: 700px;
         margin: auto;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -215,7 +215,7 @@ p {
 @media (max-width: 480px) {
     .FIO {
         font-size: 24px;
-        width: 450px;
+        max-width: 450px;
         height: 50px;
         justify-self: start;
     }
@@ -236,7 +236,7 @@ p {
     }
 
     .right-panel {
-        width: 450px;
+        max-width: 450px;
     }
 
     .person-info {
@@ -252,7 +252,7 @@ p {
 
     .FIO {
         font-size: 18px;
-        width: 300px;
+        max-width: 300px;
         height: 20px;
     }
 
@@ -261,7 +261,7 @@ p {
     }
 
     .left-panel {
-        width: 300px;
+        max-width: 300px;
         flex-direction: column;
     }
 
@@ -274,7 +274,7 @@ p {
     }
 
    .right-panel {
-       width: 300px;
+       max-width: 300px;
        justify-self: start;
        margin-right: 5px;
    }
